@@ -1,5 +1,5 @@
 // Import external dependencies
-const express = require('express');
+import express from "express";
 
 // Set port number
 const port = 3000;

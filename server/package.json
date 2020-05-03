@@ -2,9 +2,9 @@
   "name": "ejasarevic-mean-stack",
   "version": "1.0.0",
   "description": "A simple MEAN Stack app",
-  "main": "server/app.js",
+  "main": "dist/app.js",
   "scripts": {
-    "start": "node .",
+    "start": "tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,6 +30,8 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.6",
-    "@types/node": "^13.13.4"
+    "@types/node": "^13.13.4",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3"
   }
 }
