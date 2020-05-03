@@ -1,1 +1,142 @@
 /* You can add global styles to this file, and also import other style files */
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  padding-top: 50px;
+}
+
+#footer{
+  left:0;
+  bottom:0;
+  height:85px;
+  width:100%;
+  background-color: #efefef;
+  text-align: center;
+  padding: 1rem;
+}
+
+#main-app-content{
+  min-height: -webkit-calc(100% - 85px);     /* Chrome */
+  min-height: -moz-calc(100% - 85px);     /* Firefox */
+  min-height: calc(100% - 85px);     /* native */
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff !important;
+  background-color: maroon !important;
+}
+
+.navbar{
+  border: 0px !important;
+}
+
+.btn-primary{
+  background-color: maroon !important;
+}
+
+.red-link{
+  color: indianred !important;
+}
+
+.f-w-b{
+  font-weight: bold;
+}
+
+.f-s-16{
+  font-size: 16px;
+}
+
+.f-s-32 {
+  font-size: 32px;
+}
+
+.m-l-0{
+  margin-left: 0px !important;
+}
+
+.m-b-10{
+  margin-bottom: 10px;
+}
+
+.p-5{
+  padding: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.cdk-overlay-container{
+  z-index: 9999 !important;
+}
+
+.p-t-20{
+  padding-top: 20px;
+}
+.m-t-20{
+  margin-top: 20px;
+}
+.m-r-10{
+  margin-right: 10px;
+}
+
+.noUi-handle{
+  background-color: indianred !important;
+}
+
+.span-new-line{
+  display: table-row;
+}
+
+.tag-list i {
+  font-size: 0.6rem;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+ul.tag-list {
+  padding-left: 0px !important;
+  display: inline-block;
+  list-style: none !important;
+}
+ul.tag-list li {
+  padding: 5px 5px 5px 5px;
+  margin: 7px 3px 3px 3px;
+  display: inline-block !important;
+}
+
+.tag-default.tag-outline {
+  color: #fff !important;
+  background: #900 !important;
+}
+
+.editable-tag-icon{
+  margin-left: 5px !important;
+  padding: 7px !important;
+}
+
+.tag-icon{
+  margin-left: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.t-a-c{
+  text-align: center !important;
+}
+.m-l-15{
+  margin-left: 15px;
+}
+.p-10{
+  padding: 10px !important;
+}
+.badge-maroon{
+  background-color: maroon !important;
+}
+
