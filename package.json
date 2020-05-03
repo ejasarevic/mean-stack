@@ -1,0 +1,35 @@
+{
+  "name": "ejasarevic-mean-stack",
+  "version": "1.0.0",
+  "description": "A simple MEAN Stack app",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejasarevic/mean-stack.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack",
+    "MongoDB",
+    "Express",
+    "Angular",
+    "NodeJS"
+  ],
+  "author": "Eman Jasarevic (ejasarevic)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejasarevic/mean-stack/issues"
+  },
+  "homepage": "https://github.com/ejasarevic/mean-stack#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.13.4"
+  }
+}
